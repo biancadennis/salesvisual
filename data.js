@@ -38,11 +38,11 @@ data = {
   "salesByChannel": [
     {
       "sales": 33,
-      "channel": "direct"
+      "channel": "online sales"
     },
     {
       "sales": 43,
-      "channel": "stores"
+      "channel": "in-store sales"
     }
   ],
   "salesByColor": [

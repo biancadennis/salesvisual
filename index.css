@@ -2,3 +2,7 @@
     display: flex;
     flex-direction: row;
 }
+#myDoughnutChart {
+    height: 400px;
+    width: 400px;
+}
