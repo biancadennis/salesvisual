@@ -1,9 +1,33 @@
 <html>
     <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+        <link rel="stylesheet" href="index.css">
+        <script src='data.js'></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src='index.js'></script>
     </head>
     <body>
         <h1>
-            Hi
+            Overview
         </h1>
+        <h3>
+            Total Sales
+        </h3>
+<!--sales section-->
+        <div id='totalSales'>
+            <div>
+                <div>OMNI RECEIPTS</div>
+                <div id="receiptsDATA"></div>
+            </div>
+            <div>
+                <div>TOTAL SALES</div>
+                <div id="salesDATA"></div>
+            </div>
+            <div>
+                <div>OMNI % SO</div>
+                <div id="percentDATA"></div>
+            </div>
+        </div>
+<!--circle chart section-->
     </body>
 </html>
