@@ -53,7 +53,7 @@ data = {
     },
     {
       "sales": 34,
-      "color_name": "white",
+      "color_name": '#f4f6f7',
       "colorId": 100106
     },
     {
