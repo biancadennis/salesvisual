@@ -44,7 +44,6 @@ $( document ).ready(function() {
     //Head to Head Bar Chart
     colors = []
     colorData = []
-    // colorObjects =[]
     data.salesByColor.forEach(function(element) {
         colors.push(element.color_name)
         colorData.push(element.sales)
@@ -55,7 +54,7 @@ $( document ).ready(function() {
         data: {
             datasets: [{
                 data: colorData,
-                backgroundColor: colors
+                backgroundColor: colors,
             }],
         // These labels appear in the legend and in the tooltips when hovering different arcs
             labels: colors

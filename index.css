@@ -4,6 +4,7 @@ body {
     font-family: verdana;
     color: #9fa0a0;
     padding-top: 15px;
+    background-color: #f7f7f7;
 }
 #totalSales {
     display: flex;
