@@ -1,8 +1,54 @@
+body {
+    margin: auto;
+    width: 75%;
+    font-family: verdana;
+    color: #9fa0a0;
+    padding-top: 15px;
+}
 #totalSales {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid #dee1e2;
+    border-radius: 15px;
+    background-color: #f4f6f7;
+    text-align: center;
+    padding: 15px;
 }
-#myDoughnutChart {
-    height: 400px;
-    width: 400px;
+#totalSales > div {
+    width: 33%;
+}
+.totalSalesCategories{
+    border-right: 1px solid #9fa0a0;
+    padding-right: 15px;
+}
+
+.numberBreakout{
+    color: blue;
+    padding-top: 10px;
+    font-size: 30px;
+}
+#circleChart, #barChart {
+    width: 100%;
+    border-bottom: 1px solid #9fa0a0;
+    padding: 10px;
+}
+.salesList {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #9fa0a0;
+    padding-bottom: 15px;
+}
+#salesInfo {
+    display: flex;
+    justify-content: space-between;
+}
+h1, h4 {
+    color: black;
+}
+.weeklySalesData {
+    color: black;
+    border-bottom: 1px solid #9fa0a0;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }

@@ -48,27 +48,27 @@ data = {
   "salesByColor": [
     {
       "sales": 17,
-      "color_name": "Green",
+      "color_name": "green",
       "colorId": 100105
     },
     {
       "sales": 34,
-      "color_name": "White",
+      "color_name": "white",
       "colorId": 100106
     },
     {
       "sales": 10,
-      "color_name": "Blue",
+      "color_name": "blue",
       "colorId": 100107
     },
     {
       "sales": 8,
-      "color_name": "Grey",
+      "color_name": "grey",
       "colorId": 100108
     },
     {
       "sales": 7,
-      "color_name": "Black",
+      "color_name": "black",
       "colorId": 100714
     }
   ],
